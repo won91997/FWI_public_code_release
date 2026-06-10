@@ -1,0 +1,9 @@
+# python
+__pycache__
+
+# misc
+.DS_Store
+*.pem
+
+# vscode
+.vscode

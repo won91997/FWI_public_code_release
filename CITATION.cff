@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper and the relevant baseline model papers."
+title: "Empirical Evaluation of DL-FWI Architectures on High-Resolution Field Data from the Sichuan Basin"
+authors:
+  - family-names: "Wang"
+    given-names: "Yi-Fan"
+  - family-names: "Min"
+    given-names: "Fan"
+  - family-names: "Lyu"
+    given-names: "Qingda"
+  - family-names: "Liu"
+    given-names: "Ping"
+  - family-names: "Pan"
+    given-names: "Shulin"
+  - family-names: "Xu"
+    given-names: "Qiong"
+date-released: 2026-06-10
+repository-code: "https://github.com/OWNER/REPOSITORY"
+abstract: "Public code package for the FAN-10000m ten-model DL-FWI benchmark workflow, including dataset preparation scripts, Resolution-Constrained and Target-Resolution training entry points, unified evaluation, and profiling utilities."
+preferred-citation:
+  type: article
+  title: "Empirical Evaluation of DL-FWI Architectures on High-Resolution Field Data from the Sichuan Basin"
+  authors:
+    - family-names: "Wang"
+      given-names: "Yi-Fan"
+    - family-names: "Min"
+      given-names: "Fan"
+    - family-names: "Lyu"
+      given-names: "Qingda"
+    - family-names: "Liu"
+      given-names: "Ping"
+    - family-names: "Pan"
+      given-names: "Shulin"
+    - family-names: "Xu"
+      given-names: "Qiong"
+  year: 2026

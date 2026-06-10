@@ -1,0 +1,19 @@
+{
+  "global_idx": 8502,
+  "in_file_idx": 2,
+  "inline_id": 654,
+  "seismic_path": "<DATA_ROOT>/seismic_full/seismic18.npy",
+  "hyperbolic_semblance_score": 0.9494873285293579,
+  "best_t0_s": 0.24,
+  "best_v_mps": 4700.0,
+  "dt_s": 0.002,
+  "crossline_range_m": 3200.0,
+  "depth_range_m": 10000.0,
+  "shot_orient": "time-x",
+  "plot_channel": 0,
+  "shot_pct": 99.5,
+  "shot_contrast": 1.0,
+  "show_colorbar": false,
+  "scanned_train_shots": 900,
+  "seed": 42
+}

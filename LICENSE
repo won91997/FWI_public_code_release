@@ -1,0 +1,20 @@
+License notice
+
+Copyright (c) 2026, the authors.
+
+All rights reserved unless a file or directory includes its own license notice.
+
+This repository contains two categories of material:
+
+1. Original benchmark orchestration code, scripts, documentation, and result
+   summaries prepared by the authors.
+2. Third-party baseline model code retained for reproducibility.
+
+No additional rights are granted for third-party code beyond the rights provided
+by each upstream project. See THIRD_PARTY_NOTICES.md for the known upstream
+sources and license-review status.
+
+Before redistributing, modifying, or reusing code from this repository, confirm
+the applicable license for the specific file or directory. The authors may
+replace this notice with a standard open-source license after third-party
+license compatibility has been verified.

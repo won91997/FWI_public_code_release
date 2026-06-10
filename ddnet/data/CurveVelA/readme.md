@@ -1,0 +1,46 @@
+# CurveVelA dataset
+
+CurveVelA is a dataset from the OpenFWI datasets depicting curved stratigraphy.
+OpenFWI is a general term for integrating multiple full waveform inversion datasets.
+OpenFWI datasets include interfaces, faults, CO2 reservoirs, 3D underground structures and other stratum data type.
+
+The paper of OpenFWI:  
+(C. Deng, S. Feng, H. Wang, X. Zhang, P. Jin, Y. Feng, Q. Zeng, Y. Chen, and Y. Lin, “OpenFWI: Large-scale multi-structural benchmark datasets for full waveform inversion,” in NIPS, vol. 35, 2022, pp. 6007–6020).
+
+The current folder is structured as follows:  
+ddnet/data/CurveVelA/  
+|--test_data  
+&nbsp;&nbsp;&nbsp;&nbsp;|--seismic  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic1.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic2.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic12.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel1.mat  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel2.mat  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel12.mat  
+|--train_data  
+&nbsp;&nbsp;&nbsp;&nbsp;|--seismic  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic1.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic2.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--seismic48.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel1.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel2.npy  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--...  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--vmodel48.npy
+
+There are 24,000 training data and 6,000 testing data, in which the seismic data and the velocity model correspond one-to-one. Here each .npy file contains 500 data.\
+Please note that the data is too large to be uploaded to github, so users need download from the official website provided by OpenFWI.
+
+CurveVelA seismic data download:  
+https://drive.google.com/drive/folders/1ry69BNdgG4eTIkKGbnTiYCVhjMKo0THw  
+The numbers "1" to "48" in the source file retain their original numbering.
+They are used for training.
+The numbers "49" to "60" in the source file are renumbered as "1" to "12".
+They are used for testing.
+
+A presentation of some of these datasets:
+![image](CurveVelA.png)

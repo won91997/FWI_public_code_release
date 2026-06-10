@@ -1,0 +1,14 @@
+./FWIOpenData/Style_B/data/data121.npy	./FWIOpenData/Style_B/model/model121.npy
+./FWIOpenData/Style_B/data/data122.npy	./FWIOpenData/Style_B/model/model122.npy
+./FWIOpenData/Style_B/data/data123.npy	./FWIOpenData/Style_B/model/model123.npy
+./FWIOpenData/Style_B/data/data124.npy	./FWIOpenData/Style_B/model/model124.npy
+./FWIOpenData/Style_B/data/data125.npy	./FWIOpenData/Style_B/model/model125.npy
+./FWIOpenData/Style_B/data/data126.npy	./FWIOpenData/Style_B/model/model126.npy
+./FWIOpenData/Style_B/data/data127.npy	./FWIOpenData/Style_B/model/model127.npy
+./FWIOpenData/Style_B/data/data128.npy	./FWIOpenData/Style_B/model/model128.npy
+./FWIOpenData/Style_B/data/data129.npy	./FWIOpenData/Style_B/model/model129.npy
+./FWIOpenData/Style_B/data/data130.npy	./FWIOpenData/Style_B/model/model130.npy
+./FWIOpenData/Style_B/data/data131.npy	./FWIOpenData/Style_B/model/model131.npy
+./FWIOpenData/Style_B/data/data132.npy	./FWIOpenData/Style_B/model/model132.npy
+./FWIOpenData/Style_B/data/data133.npy	./FWIOpenData/Style_B/model/model133.npy
+./FWIOpenData/Style_B/data/data134.npy	./FWIOpenData/Style_B/model/model134.npy

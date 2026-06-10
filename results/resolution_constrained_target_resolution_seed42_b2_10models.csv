@@ -1,0 +1,11 @@
+Model,Source,Seed,Mode,Batch,Params(M),FLOPs(G),Train(h),Infer(ms),MSE,MAE,PSNR,SSIM,L1-Grad,LPIPS,Status
+ConvNeXtKaggle,benchmark_logs_convnext_kaggle_seed42_b2,42,Target-Resolution,2,53.7973,5.60081,,29.5978,21380.0,116.6,23.37,0.968,11.97,0.03186,OK
+FuteFWI,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,44.3837,17.4718,3.39806,11.2308,25240,111.9,22.65,0.961,10.46,0.03837,OK
+InversionNet,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,15.103,1.44532,0.980556,3.28867,17180,96.67,24.32,0.9739,9.620,0.02571,OK
+VelocityGAN,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,15.1207,11.6802,4.29194,13.6481,17030,92.31,24.36,0.974,13.60,0.02562,OK
+DCNet,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,20.4461,1.80132,0.959722,4.18387,17430,95.19,24.26,0.9733,9.724,0.02627,OK
+DDNet70,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,10.5432,1.71631,1.01278,3.49895,16730,94.03,24.44,0.9745,9.513,0.02498,OK
+TU_Net,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,10.1912,4.85813,1.21556,5.39435,16810,95.16,24.42,0.9746,9.387,0.02476,OK
+ABA_FWI,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,31.2012,5.1047,1.18361,5.90564,16530,95.98,24.49,0.9751,9.496,0.02464,OK
+FCNVMB,benchmark_logs_fair_nativeloss_seed42_all,42,Target-Resolution,2,31.0447,637.16,1.135,230.967,15670,92.33,24.72,0.9761,9.401,0.02353,OK
+VIFNet,benchmark_logs_fair_nativeloss_vifnet_seed42,42,Target-Resolution,2,96.3208,25.8191,1.913611,19.3756,17230.0,97.42,24.31,0.9744,9.613,0.02519,OK

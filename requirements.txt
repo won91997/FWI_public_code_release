@@ -1,0 +1,4 @@
+# Public benchmark dependencies.
+# The Docker workflow uses benchmark/docker/requirements.txt with pinned versions.
+
+-r benchmark/docker/requirements.txt
