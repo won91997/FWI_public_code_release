@@ -15,7 +15,7 @@ authors:
   - family-names: "Xu"
     given-names: "Qiong"
 date-released: 2026-06-10
-repository-code: "https://github.com/OWNER/REPOSITORY"
+repository-code: "https://github.com/won91997/FWI_public_code_release"
 abstract: "Public code package for the FAN-10000m ten-model DL-FWI benchmark workflow, including dataset preparation scripts, Resolution-Constrained and Target-Resolution training entry points, unified evaluation, and profiling utilities."
 preferred-citation:
   type: article
